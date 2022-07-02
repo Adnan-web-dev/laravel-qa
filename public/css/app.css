@@ -10252,3 +10252,27 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.counters {
+  margin-right: 1.8rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.counters strong {
+  display: block;
+  font-size: 2em;
+}
+.counters .vote, .counters .answer {
+  width: 3.75rem;
+  height: 3.75rem;
+}
+.counters .answered {
+  border: 1px solid rgb(96, 186, 126);
+  color: rgb(96, 186, 126);
+}
+.counters .answer-accepted {
+  background-color: rgb(96, 186, 126);
+  color: #fff;
+}
+.counters .unanswered {
+  border: none;
+}

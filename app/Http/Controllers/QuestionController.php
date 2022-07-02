@@ -18,7 +18,6 @@ class QuestionController extends Controller
         // DB::enableQueryLog();
         $questions = Question::with('user')->latest()->paginate(5);
         return view('questions.index', compact('questions'));
-        
         //  to use query log of db
         //  view('questions.index', compact('questions'))->render();
         //  dd(DB::getQueryLog());
